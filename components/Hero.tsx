@@ -17,8 +17,8 @@ const Hero = () => {
             Create a new resume, or improve an existing one in minutes.
           </p>
           <div className="flex gap-12">
-            <Button>Create Resume</Button>
-            <Button>Upgrade Resume</Button>
+            <Button className="rounded-full bg-[#59ABE2] py-[20px] px-[30px]">Create Resume</Button>
+            <Button className="rounded-full bg-[#59ABE2] py-[20px] px-[30px]">Upgrade Resume</Button>
           </div>
         </div>
       </div>
