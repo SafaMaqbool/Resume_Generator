@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import ats from "../../project/public/assets/ats.svg";
-import job from "../../project/public/assets/jobsucess.svg";
-import client from "../../project/public/assets/clientsatisfaction.svg";
-import approved from "../../project/public/assets/professionallyApproved.svg";
+import ats from "@/public/assets/ats.svg";
+import job from "@/public/assets/jobsucess.svg";
+import client from "@/public/assets/clientsatisfaction.svg";
+import approved from "@/public/assets/professionallyApproved.svg";
 
 const Features = () => {
   return (

@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import logo from '../../project/public/assets/logo.svg'
-import fb from '../../project/public/assets/fb.svg'
-import linkedin from '../../project/public/assets/linkendin.svg'
-import insta from '../../project/public/assets/insta.svg'
-import twitter from '../../project/public/assets/twitter.svg'
+import logo from '@/public/assets/logo.svg'
+import fb from '@/public/assets/fb.svg'
+import linkedin from '@/public/assets/linkendin.svg'
+import insta from '@/public/assets/insta.svg'
+import twitter from '@/public/assets/twitter.svg'
 
 const Footer = () => {
   return (
-    <div className='flex gap-52'>
+    <div className='flex gap-52 my-12 justify-center'>
        <div>
         <Image src={logo} alt='logo'/>
        </div>
