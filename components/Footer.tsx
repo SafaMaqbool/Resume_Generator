@@ -9,25 +9,27 @@ import twitter from "@/public/assets/twitter.svg";
 
 const Footer = () => {
   return (
-    <footer className="py-32 px-16">
-      <div className="flex gap-52">
-        <div>
-          <Image src={logo} alt="logo" />
-        </div>
+    <footer className="py-28 px-32 text-brand-primary grid grid-cols-4 gap-2">
+      <Image src={logo} alt="logo" />
 
-        <div className="flex flex-col">
-          <Link href="/about">About & FAQS </Link>
-          <Link href="/profile">PROFILE</Link>
-          <Link href="/reports">REPORTS</Link>
-          <Link href="/insights">INSIGHTS</Link>
-        </div>
+      <div className="flex flex-col">
+        <Link href="/about">About & FAQS </Link>
+        <Link href="/profile">PROFILE</Link>
+        <Link href="/reports">REPORTS</Link>
+        <Link href="/insights">INSIGHTS</Link>
+      </div>
 
-        <div className="flex flex-row">
-          <Image src={fb} alt="" />
-          <Image src={linkedin} alt="" />
-          <Image src={twitter} alt="" />
-          <Image src={insta} alt="" />
-        </div>
+      <div className="flex flex-col">
+        <Link href="/about">Information Center </Link>
+        <Link href="/profile">Terms and Conditions</Link>
+        <Link href="/reports">Privacy Policy</Link>
+      </div>
+
+      <div className="flex gap-8 items-center">
+        <Image src={fb} alt="" />
+        <Image src={linkedin} alt="" />
+        <Image src={twitter} alt="" />
+        <Image src={insta} alt="" />
       </div>
     </footer>
   );
