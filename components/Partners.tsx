@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import google from "../../project/public/assets/google.svg";
-import trello from "../../project/public/assets/trello.svg";
-import monday from "../../project/public/assets/monday.svg";
-import notion from "../../project/public/assets/notion.svg";
-import slack from "../../project/public/assets/slack.svg";
+import google from "@/public/assets/google.svg";
+import trello from "@/public/assets/trello.svg";
+import monday from "@/public/assets/monday.svg";
+import notion from "@/public/assets/notion.svg";
+import slack from "@/public/assets/slack.svg";
 
 export const Partners = () => {
   return (

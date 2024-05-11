@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cvTemplate from '../../project/public/assets/cvTemplate.svg'
+import cvTemplate from "@/public/assets/cvTemplate.svg";
 
 const Templates = () => {
   return (
@@ -13,10 +13,8 @@ const Templates = () => {
 
       <div className="bg-[#DFEEFA] w-full flex">
         <div className="justify-center items-center">
-            <Image src={cvTemplate} alt="template"/>
+          <Image src={cvTemplate} alt="template" />
         </div>
-        
-
       </div>
     </div>
   );

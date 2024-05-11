@@ -1,7 +1,7 @@
 import React from "react";
-import hero from "../../project/public/assets/HeroImg.svg";
+import hero from "@/public/assets/HeroImg.svg";
 import Image from "next/image";
-import line from "../../project/public/assets/line.svg";
+import line from "@/public/assets/line.svg";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
