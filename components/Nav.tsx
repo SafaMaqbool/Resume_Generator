@@ -17,7 +17,7 @@ const Nav = () => {
         <Link href="/about-us">About Us</Link>
         <Link href="/contact-us">Contact Us</Link>
         <Button variant="outline">Log In</Button>
-        <Button>Register</Button>
+       <Button><Link href="/register">Register</Link></Button>
       </nav>
 
       <div className="md:hidden ">

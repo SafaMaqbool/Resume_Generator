@@ -22,6 +22,7 @@ const config = {
         brand: {
           blue: "#DFEEFA",
           primary: "#191A15",
+          darkBlue: "#59ABE2"
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

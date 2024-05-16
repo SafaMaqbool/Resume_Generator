@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import cvTemplate from "@/public/assets/cvTemplate.svg";
+import { Button } from "./ui/button";
 
 const Templates = () => {
   return (
@@ -11,9 +12,12 @@ const Templates = () => {
         </p>
       </div>
 
-      <div className="bg-brand-blue py-20 w-full flex items-center justify-center">
+      <div className="bg-brand-blue py-20 w-full flex flex-col gap-4 items-center justify-center">
         <div className="justify-center items-center">
           <Image src={cvTemplate} alt="template" />
+        </div>
+        <div>
+          <Button className="m-4">Select Template</Button>
         </div>
       </div>
     </section>

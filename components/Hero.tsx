@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="px-[100px] py-[120px] flex flex-col-reverse  lg:items-center lg:flex-row lg:justify-between">
+    <div className="px-[100px] py-[120px] flex flex-col-reverse   lg:items-center lg:flex-row  lg:justify-between">
       <div className="flex flex-col justify-center lg:w-1/2">
         <p className="font-semibold text-[35px]  text-center lg:text-[50px] lg:text-left">
           Only 2% of resumes make it past the first round. Be in the top 2%.
