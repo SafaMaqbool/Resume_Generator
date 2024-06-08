@@ -3,6 +3,7 @@ import hero from "@/public/assets/HeroImg.svg";
 import Image from "next/image";
 import line from "@/public/assets/line.svg";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,8 +17,10 @@ const Hero = () => {
           Create a new resume, or improve an existing one in minutes.
         </p>
         <div className="flex gap-12">
-          <Button>Create Resume</Button>
-          <Button>Upgrade Resume</Button>
+          <Button>
+          <Link href="/resume-builder">Create Resume</Link>
+          </Button>
+         
         </div>
       </div>
 

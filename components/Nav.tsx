@@ -13,7 +13,7 @@ const Nav = () => {
       </Link>
 
       <nav className="hidden md:flex gap-8 items-center">
-        <Link href="/home">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="/about-us">About Us</Link>
         <Link href="/contact-us">Contact Us</Link>
         <Button variant="outline">Log In</Button>
